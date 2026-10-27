@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "name": "tralwdwdd's Plugin Repository",
+  "description": "Valenced plugins made by tralwdwdd.",
+  "plugins": {
+    "dev.tralwdwdd.jump-to-top": {
+      "name": "JumpToTop",
+      "description": "Adds a button to jump to the first message in a chat. The opposite of jump to present.",
+      "author": "tralwdwdd",
+      "icon": "ArrowSmallUpIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.jump-to-top@1.0.0.zip",
+          "sha256": "d7a95b3e64175faa7c5070d13d0784aaff670be51d2c48ca68729f15b0ab6c75",
+          "size": 1821,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        }
+      }
+    },
+    "dev.tralwdwdd.search-action-sheet": {
+      "name": "SearchActionSheet",
+      "description": "Makes search results open the action sheet on long press.",
+      "author": "tralwdwdd",
+      "icon": "icon-search",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.search-action-sheet@1.0.0.zip",
+          "sha256": "f8574df559b34cb25ef60291e3cd04387094a1e13d2fb83a487000fda282ef27",
+          "size": 987,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        }
+      }
+    },
+    "dev.tralwdwdd.tralwdwdd-lib": {
+      "name": "tralwdwdd plugin library",
+      "description": "Shared code for my plugins.",
+      "author": "tralwdwdd",
+      "icon": "FileIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.tralwdwdd-lib@1.0.0.zip",
+          "sha256": "b3db273fa351aeb52a3b1b90b11b618432a31bc0ccb45faaea6457922890ebe0",
+          "size": 1157,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "dev.tralwdwdd.valenced-quick-actions": {
+      "name": "ValencedQuickActions",
+      "description": "Adds Quick Actions to the You Bar action sheet.",
+      "author": "tralwdwdd",
+      "icon": "MagicWandIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.valenced-quick-actions@1.0.0.zip",
+          "sha256": "aca1efeb8c99b22511fe426fb139b8c7d110d8fca381fac879bfcfec72379247",
+          "size": 2782,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
