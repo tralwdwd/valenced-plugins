@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "dev.tralwdwdd.search-action-sheet",
+	"name": "SearchActionSheet",
+	"description": "Makes search results open the action sheet on long press.",
+	"author": "tralwdwdd",
+	"version": "1.0.0",
+	"icon": "icon-search",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"dev.tralwdwdd.tralwdwdd-lib": {
+			"version": ">=1.0.0"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

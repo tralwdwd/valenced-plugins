@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "dev.tralwdwdd.jump-to-top",
+	"name": "JumpToTop",
+	"description": "Adds a button to jump to the first message in a chat. The opposite of jump to present.",
+	"author": "tralwdwdd",
+	"version": "1.0.0",
+	"icon": "ArrowSmallUpIcon",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"dev.tralwdwdd.tralwdwdd-lib": {
+			"version": ">=1.0.0"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

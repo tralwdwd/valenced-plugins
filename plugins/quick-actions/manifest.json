@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "dev.tralwdwdd.valenced-quick-actions",
+	"name": "ValencedQuickActions",
+	"description": "Adds Quick Actions to the You Bar action sheet.",
+	"author": "tralwdwdd",
+	"version": "1.0.0",
+	"icon": "MagicWandIcon",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"dev.tralwdwdd.tralwdwdd-lib": {
+			"version": ">=1.0.0"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

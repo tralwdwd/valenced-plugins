@@ -1,0 +1,20 @@
+{
+	"format": 1,
+	"id": "dev.tralwdwdd.tralwdwdd-lib",
+	"name": "tralwdwdd plugin library",
+	"description": "Shared code for my plugins.",
+	"author": "tralwdwdd",
+	"version": "1.0.0",
+	"icon": "FileIcon",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

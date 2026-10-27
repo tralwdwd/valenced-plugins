@@ -1,0 +1,62 @@
+# PR build validation
+
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/**'
+      - 'themes/**'
+      - 'cli/**'
+      - '.github/**'
+      - 'repo.config.json'
+      - '*.gradle.kts'
+      - 'gradle/**'
+      - 'package.json'
+      - 'bun.lock'
+      - 'tsconfig.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - name: Lint the workflow scripts
+        run: shellcheck .github/scripts/*.sh
+
+      - name: Build all plugins
+        run: ./gradlew --no-daemon packageAllPlugins
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate index from built artifacts
+        run: |
+          bun run generate-index \
+            --dist build/dist \
+            --base-url https://valenced.local \
+            --out /tmp/index.json
+          cat /tmp/index.json
+
+      - name: Upload built plugins
+        uses: actions/upload-artifact@v7
+        with:
+          name: plugins
+          path: build/dist/*.zip
+          if-no-files-found: warn
+
+      - name: Upload generated index
+        uses: actions/upload-artifact@v7
+        with:
+          name: index
+          path: /tmp/index.json
+          if-no-files-found: error
+          archive: false

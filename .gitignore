@@ -1,0 +1,18 @@
+# Gradle / Android
+.gradle/
+build/
+plugins/*/build/
+local.properties
+.kotlin/
+
+# JS
+node_modules/
+bun.lockb
+bun.lock
+package-lock.json
+deno.lock
+
+# Misc
+.DS_Store
+.idea/
+*.iml
