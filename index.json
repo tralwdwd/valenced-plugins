@@ -13,7 +13,7 @@
       },
       "versions": {
         "1.0.0": {
-          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.jump-to-top@1.0.0.zip",
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.jump-to-top@1.0.0.zip",
           "sha256": "d7a95b3e64175faa7c5070d13d0784aaff670be51d2c48ca68729f15b0ab6c75",
           "size": 1821,
           "dependencies": {
@@ -40,7 +40,7 @@
       },
       "versions": {
         "1.0.0": {
-          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.search-action-sheet@1.0.0.zip",
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.search-action-sheet@1.0.0.zip",
           "sha256": "f8574df559b34cb25ef60291e3cd04387094a1e13d2fb83a487000fda282ef27",
           "size": 987,
           "dependencies": {
@@ -67,7 +67,7 @@
       },
       "versions": {
         "1.0.0": {
-          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.tralwdwdd-lib@1.0.0.zip",
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.tralwdwdd-lib@1.0.0.zip",
           "sha256": "b3db273fa351aeb52a3b1b90b11b618432a31bc0ccb45faaea6457922890ebe0",
           "size": 1157,
           "dependencies": {
@@ -91,7 +91,7 @@
       },
       "versions": {
         "1.0.0": {
-          "url": "https://tralwdwd.github.io/valenced-plugins/pool/dev.tralwdwdd.valenced-quick-actions@1.0.0.zip",
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.0.zip",
           "sha256": "aca1efeb8c99b22511fe426fb139b8c7d110d8fca381fac879bfcfec72379247",
           "size": 2782,
           "dependencies": {
