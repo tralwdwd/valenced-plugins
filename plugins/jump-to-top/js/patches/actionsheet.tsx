@@ -46,7 +46,7 @@ export function patchActionSheet({ cleanup, unscoped }: PluginApi) {
 				if (!allowedChannelTypes.includes(type)) return;
 
 				tree.unshift(
-					<Design.ActionSheetRow.Group>
+					<Design.ActionSheetRow.Group hasIcons>
 						<Design.ActionSheetRow
 							label="Jump To Top"
 							icon={
@@ -75,7 +75,7 @@ export function patchActionSheet({ cleanup, unscoped }: PluginApi) {
 				const { guild_id: guildId, id: threadId } = props.thread;
 
 				tree.unshift(
-					<Design.ActionSheetRow.Group>
+					<Design.ActionSheetRow.Group hasIcons>
 						<Design.ActionSheetRow
 							label="Jump To Top"
 							icon={
@@ -112,7 +112,7 @@ export function patchActionSheet({ cleanup, unscoped }: PluginApi) {
 				if (!allowedChannelTypes.includes(type)) return;
 
 				tree.unshift(
-					<Design.ActionSheetRow.Group>
+					<Design.ActionSheetRow.Group hasIcons>
 						<Design.ActionSheetRow
 							label="Jump To Top"
 							icon={

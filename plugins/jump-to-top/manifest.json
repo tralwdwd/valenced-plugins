@@ -4,7 +4,7 @@
 	"name": "JumpToTop",
 	"description": "Adds a button to jump to the first message in a chat. The opposite of jump to present.",
 	"author": "tralwdwdd",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icon": "ArrowSmallUpIcon",
 	"dependencies": {
 		"valenced.api": {
