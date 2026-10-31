@@ -9,13 +9,29 @@
       "author": "tralwdwdd",
       "icon": "ArrowSmallUpIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.jump-to-top@1.0.0.zip",
           "sha256": "d7a95b3e64175faa7c5070d13d0784aaff670be51d2c48ca68729f15b0ab6c75",
           "size": 1821,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.jump-to-top@1.0.1.zip",
+          "sha256": "1e770c948cdc4566566baab6e0cfe6af0915bc52fbdee34b5128b5f3f0793029",
+          "size": 1829,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -87,13 +103,29 @@
       "author": "tralwdwdd",
       "icon": "MagicWandIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.0.zip",
           "sha256": "aca1efeb8c99b22511fe426fb139b8c7d110d8fca381fac879bfcfec72379247",
           "size": 2782,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.1.zip",
+          "sha256": "9a8159ab1440ccda1502d0bcf9f54ecdba904fd7599d3907bde7f29d2eabd152",
+          "size": 2791,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
