@@ -1,7 +1,6 @@
-import { once } from "@shared/utils";
+import { once, Stores } from "@shared/utils";
 import { getAssetIdByName } from "@valenced/assets";
 import { Design } from "@valenced/discord/design";
-import { Stores } from "@valenced/discord/flux";
 import { getModuleWithImportedPath } from "@valenced/discord/utils/modules/finders";
 import { getModules } from "@valenced/modules/finders";
 import { withName } from "@valenced/modules/finders/filters";
@@ -9,8 +8,6 @@ import { instead } from "@valenced/patcher";
 import { ChannelType } from "@vencord/discord-types/enums";
 import { JumpToTopButton } from "../ui/components/JumpToTopButton";
 import type { PluginApi, PluginCleanupApi } from "@valenced/plugins/types";
-import type { ChannelStore } from "@vencord/discord-types";
-import type { ToValencedStore } from "@/types/util";
 
 export function patchJumpToPresent({ cleanup }: PluginApi) {
 	cleanup(
@@ -29,7 +26,7 @@ export function patchJumpToPresent({ cleanup }: PluginApi) {
 }
 
 const patch = once((JTPButton: any, cleanup: PluginCleanupApi) => {
-	const ChannelStore = Stores.ChannelStore as ToValencedStore<ChannelStore>;
+	const { ChannelStore } = Stores;
 
 	cleanup(
 		instead(JTPButton, "default", ([props], original) => {
