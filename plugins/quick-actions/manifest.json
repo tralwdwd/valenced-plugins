@@ -4,7 +4,7 @@
 	"name": "ValencedQuickActions",
 	"description": "Adds Quick Actions to the You Bar action sheet.",
 	"author": "tralwdwdd",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "MagicWandIcon",
 	"dependencies": {
 		"valenced.api": {
