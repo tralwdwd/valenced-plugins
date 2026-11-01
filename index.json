@@ -9,7 +9,7 @@
       "author": "tralwdwdd",
       "icon": "ArrowSmallUpIcon",
       "channels": {
-        "latest": "1.0.1"
+        "latest": "1.0.2"
       },
       "versions": {
         "1.0.0": {
@@ -32,6 +32,22 @@
           "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.jump-to-top@1.0.1.zip",
           "sha256": "1e770c948cdc4566566baab6e0cfe6af0915bc52fbdee34b5128b5f3f0793029",
           "size": 1829,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        },
+        "1.0.2": {
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.jump-to-top@1.0.2.zip",
+          "sha256": "33f1eaa59b9e9174fb8b5af78aa4822fb4fba46b0256dbf8f5c80d7ad0904105",
+          "size": 1838,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -103,7 +119,7 @@
       "author": "tralwdwdd",
       "icon": "MagicWandIcon",
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.0.3"
       },
       "versions": {
         "1.0.0": {
@@ -142,6 +158,22 @@
           "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.2.zip",
           "sha256": "14d73e3531f5984d8ac5636aa6de07a6708c5cf40e6841d31f317bf551b10a34",
           "size": 2795,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        },
+        "1.0.3": {
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.3.zip",
+          "sha256": "a8be67c84b227b4c0987c7212e30b03808eafe61247056c759f9b321d3968653",
+          "size": 2813,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
