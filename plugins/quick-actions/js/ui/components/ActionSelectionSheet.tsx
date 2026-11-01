@@ -19,6 +19,7 @@ export default function ActionSelectionSheet({
 			<Design.TableRadioGroup
 				defaultValue={selectedAction}
 				onChange={onValueChange}
+                hasIcons
 			>
 				{(Object.keys(QuickActions) as QuickActionKey[]).map(
 					key => {

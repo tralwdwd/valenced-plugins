@@ -37,7 +37,7 @@ export function SettingsComponent({ api }: Props) {
 
 	return (
 		<Page>
-			<Design.TableRowGroup title="Configured Actions">
+			<Design.TableRowGroup title="Configured Actions" hasIcons>
 				{actionConfigs.map((action, index) => (
 					<Design.TableRow
 						label={action.title}

@@ -20,7 +20,7 @@ export function patchActionSheet({
 				if (actionConfigs.length === 0) return;
 
 				tree.unshift(
-					<Design.ActionSheetRow.Group title="Quick Actions">
+					<Design.ActionSheetRow.Group title="Quick Actions" hasIcons>
 						{actionConfigs.map(config => (
 							<Design.ActionSheetRow
 								label={config.title}
