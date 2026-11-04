@@ -119,7 +119,7 @@
       "author": "tralwdwdd",
       "icon": "MagicWandIcon",
       "channels": {
-        "latest": "1.0.3"
+        "latest": "1.0.4"
       },
       "versions": {
         "1.0.0": {
@@ -173,6 +173,22 @@
         "1.0.3": {
           "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.3.zip",
           "sha256": "a8be67c84b227b4c0987c7212e30b03808eafe61247056c759f9b321d3968653",
+          "size": 2813,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.tralwdwdd.tralwdwdd-lib": {
+              "version": ">=1.0.0"
+            }
+          }
+        },
+        "1.0.4": {
+          "url": "https://valenced.tralwdwd.dev/pool/dev.tralwdwdd.valenced-quick-actions@1.0.4.zip",
+          "sha256": "e89659e15c5216d4b7b268b56f9576245fbf0ab070e24187921e0c63f9646b5d",
           "size": 2813,
           "dependencies": {
             "valenced.api": {
