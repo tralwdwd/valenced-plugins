@@ -60,7 +60,7 @@ export default function QuickActionSheet({ api, index }: Props) {
 	return (
 		<Design.ActionSheet>
 			<Design.BottomSheetTitleHeader title="Edit Action Configuration" />
-			<Design.ActionSheetRow.Group hasIcons>
+			<Design.ActionSheetRow.Group>
 				<InputRow label="Title" value={title} onChange={setTitle} />
 				<InputRow
 					label="Icon"
